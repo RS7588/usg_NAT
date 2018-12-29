@@ -1,0 +1,13 @@
+{
+	"service": {
+		"nat": {                                       
+			"rule": {                   
+				"5999": {                        
+					"exclude": "''",        
+					"outbound-interface": "eth0",
+					"type": "masquerade"
+				}
+			}
+		}
+	}
+}
